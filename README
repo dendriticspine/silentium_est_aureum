@@ -5,3 +5,5 @@ Chrome extension that replaces the word "Comments" with "Regrets" and gives a ti
 It is very basic, will replace text you don't necessarily want replaced, and ultimately should not be used if you don't know what you're doing.
 
 That said, it was a fun experiment.
+
+To install, either pack the extension yourself, or drag the .crx file into your chrome://extensions window. 
