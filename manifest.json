@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+   	"name": "silentium est aureum",
+	"description": "No good ever comes from the comments.",
+	"version": "0.1",
+	"permissions": [ "tabs", "http://*/*", "https://*/*" ],
+    "content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"js": [ "jquery.min.js", "commentregret.js" ],
+			"run_at": "document_end",
+			"all_frames": true
+		}
+	]
+}
